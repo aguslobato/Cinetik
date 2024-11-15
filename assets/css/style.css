@@ -102,11 +102,17 @@ body{
 .color-blue{
     color: #19286D;
 }
+.color-black{
+    color: #444444;
+}
 .color-grey{
     color: grey;
 }
 .rounded-2{
     border-radius: 20px;
+}
+.border-blue{
+    border: 2px solid #1472B2;
 }
 /* BACKGROUNDS */
 .bg-white{
@@ -166,6 +172,9 @@ body{
     color: #1472B2;
     text-decoration: none;
 }
+.link-text-decoration{
+    text-decoration: underline;
+}
 .link-light-blue:hover{
     text-decoration: underline;
 }
@@ -207,8 +216,19 @@ body{
     background-color: white;
     height: 100%;
 }
+form input.form-control, form .form-select, form textarea{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 40px;
+}
+form textarea{
+    min-height: 170px;
+}
 form select option, form select{
     color: #757575;
+}
+form input:focus, form select:focus, textarea:focus{
+    outline: none;
 }
 footer{
     background-color: black;
