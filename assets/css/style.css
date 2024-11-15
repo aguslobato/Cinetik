@@ -1,6 +1,9 @@
 h1,h2,h3,h4,h5,h6,span,a,p{
     font-family: "Prompt", sans-serif;
 }
+body{
+    background-color: #f9f9f9;
+}
 .logo{
     height: 66px;
 }
@@ -53,8 +56,26 @@ h1,h2,h3,h4,h5,h6,span,a,p{
 .fs-1{
     font-size: 4.5rem;
 }
+.fs-1-2{
+    font-size: 3.5rem;
+}
 .fs-2{
-    font-size: 1.7rem;
+    font-size: 3rem;
+}
+.fs-2-3{
+    font-size: 2.5rem;
+}
+.fs-3{
+    font-size: 2rem;
+}
+.fs-4{
+    font-size: 1.5rem;
+}
+.fs-5{
+    font-size: 1rem;
+}
+.fs-5-6{
+    font-size: 0.8rem;
 }
 .text-center{
     text-align: center;
@@ -64,6 +85,10 @@ h1,h2,h3,h4,h5,h6,span,a,p{
 }
 .icon-small{
     height: 30px;
+}
+.icon-medium{
+    height: 64px;
+    width: 64px;
 }
 .icon-blue{
     fill: #19286D;
@@ -111,8 +136,9 @@ h1,h2,h3,h4,h5,h6,span,a,p{
     border-radius: 40px;
     text-decoration: none;
     color: #19286D;
-    border: 1px solid transparent;
+    border: 1px solid #19286D;
     transition: all 0.5s;
+    font-weight: 300;
 }
 .link-bg-white:hover{
     transition: all 0.5s;
@@ -124,10 +150,11 @@ h1,h2,h3,h4,h5,h6,span,a,p{
     background-color: #19286D;
     color: white;
     text-decoration: none;
-    padding: 8px 20px;
+    padding: 16px 12px;
     border-radius: 40px;
     border: 1px solid transparent;
     transition: all 0.5s;
+    font-weight: 300;
 }
 .link-bg-blue:hover{
     background-color: white;
@@ -155,7 +182,7 @@ h1,h2,h3,h4,h5,h6,span,a,p{
 }
 .card-relative-top{
     position: relative;
-    top: -100px;
+    top: -70px;
 }
 .card-relative-bottom{
     position: relative;
